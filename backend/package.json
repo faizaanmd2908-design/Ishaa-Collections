@@ -1,0 +1,21 @@
+{
+  "name": "ishaa-collections-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Ishaa Collections digital catalogue",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.23.3"
+  }
+}
