@@ -4,7 +4,7 @@
  */
 
 // Default boutique WhatsApp contact number (can be configured)
-export const BOUTIQUE_WHATSAPP_PHONE = '919876543210';
+export const BOUTIQUE_WHATSAPP_PHONE = '918074120337';
 
 /**
  * Generate WhatsApp URL for a single product item.

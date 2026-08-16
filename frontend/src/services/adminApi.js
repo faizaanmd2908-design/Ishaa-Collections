@@ -9,7 +9,7 @@
  */
 
 const TOKEN_KEY = 'ishaa_admin_token';
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://ishaa-collections-backend.onrender.com/api';
 
 /**
  * Retrieve the current admin JWT token from sessionStorage.

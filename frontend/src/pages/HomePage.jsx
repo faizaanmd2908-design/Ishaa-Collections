@@ -170,11 +170,6 @@ export default function HomePage() {
           <h4>WhatsApp Direct Order</h4>
           <p>Instant size confirmation & personal assistance via WhatsApp.</p>
         </div>
-        <div className="value-card">
-          <div className="value-icon">📦</div>
-          <h4>Pan India Delivery</h4>
-          <p>Safe & reliable doorstep shipping across India.</p>
-        </div>
       </section>
 
       <CustomerFooter />

@@ -3,7 +3,7 @@
  * Service helper for customer-facing product catalogue endpoints.
  */
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://ishaa-collections-backend.onrender.com/api';
 
 /**
  * Fetch all public catalog products.
