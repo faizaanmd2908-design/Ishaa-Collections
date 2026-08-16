@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API = '/api';
+const API = 'https://ishaa-collections-backend.onrender.com/api';
 
 function getToken() {
     return sessionStorage.getItem('ishaa_admin_token');

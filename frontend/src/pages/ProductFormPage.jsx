@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
-const API = '/api';
+const API = 'https://ishaa-collections-backend.onrender.com/api';
 
 const SIZE_OPTIONS = ['S', 'M', 'L', 'XL', 'XXL'];
 
