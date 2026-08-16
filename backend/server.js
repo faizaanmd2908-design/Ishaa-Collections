@@ -1,7 +1,9 @@
 require('dotenv').config();
 
 const express = require('express');
+const cors = require('cors');
 const bcrypt = require('bcryptjs');
+
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const { v2: cloudinary } = require('cloudinary');
@@ -72,6 +74,7 @@ const upload = multer({
 // MIDDLEWARE
 // =====================================================
 
+app.use(cors());
 app.use(express.json());
 
 
